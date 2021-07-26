@@ -1,0 +1,7 @@
+docker image ls
+docker network ls
+C:\Users\User\Downloads\Authorization MicroService>docker image build -t usermicroservices .
+docker run --rm -it -p 8083:8083 usermicroservices
+docker container run --rm -it -p 8083:8083 usermicroservices
+docker container rm fcd39908fbd4
+docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' 63485c179565

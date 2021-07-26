@@ -1,0 +1,2 @@
+insert into user (userid,upassword,uname,urole,email,gender,age) values ('admin','admin','admin','admin','admin@gmail.com','male','19');
+insert into user (userid,upassword,uname,urole,email,gender,age) values ('admin1','admin1','admin1','user','admin1@gmail.com','male','11');
